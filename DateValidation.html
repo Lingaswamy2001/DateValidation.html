@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <center><h1>STUDENT DETAILS</h1>
+
+   <form action="./datevalidation1.html">
+<label for="name">First Name:</label>
+    <input type="text" name=" firstname" id="name" placeholder="first name" required>
+    <br><br>
+<label for="A">Last Name:</label>
+<input type="text" name="Last Name" id="A" placeholder="last name" required><br>
+<br>
+<label for="B">Date Of Birth:</label>
+<input type="text" name="Date Of Birth" id="B" placeholder="date of birth" pattern="[0-9]{2}-[0-9]{2}-[0-9]{4}" title="use -" required ><br>
+<br>
+
+<label for="C">User Name: </label>
+<input type="text" name="user name" id="C" placeholder="User Name" required><br>
+<br>
+
+<label for="password">PassWord:</label>
+<input type="password" name="" id="password" placeholder="password" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[@#$%^&]).{5,18}"  required><br>
+<br>
+<button type="submit">submit</button>
+
+
+</form>
+</center>
+
+</body>
+</html>
